@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: helloWorld;
+}
+
+@keyframes helloWorld {
+    from{
+        transform: translateY(100%);
+        opacity: 0%;
+    } to {
+        opacity: 100%;
+        transform: translateY(0%);
+    }
+}
